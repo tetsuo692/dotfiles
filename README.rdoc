@@ -1,0 +1,16 @@
+= Tetsuo Dot Files for mac
+...
+
+== Installation
+
+  git clone git://github.com/tetsuo692/dotfiles ~/.dotfiles
+  add following lines in .bashrc:
+    . ~/.dotfiles/bashrc
+  and this in .bash_profile
+    if [ -f ~/.bashrc ];
+      then
+        source ~/.bashrc
+    fi
+    
+== Sources :
+  - peepcode.com (https://peepcode.com/products/advanced-command-line)
