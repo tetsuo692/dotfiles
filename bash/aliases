@@ -1,0 +1,10 @@
+# Rails
+alias mr='mongrel_rails start'
+alias ms='mongrel_rails stop'
+alias rp='touch tmp/restart.txt'
+alias sc='./script/console'
+alias sg='./script/generate'
+alias sp='./script/plugin'
+alias ss='./script/server'
+alias tl='tail -f log/*.log'
+alias ts='thin start'
