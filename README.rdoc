@@ -4,6 +4,8 @@
 == Installation
 
   git clone git://github.com/tetsuo692/dotfiles ~/.dotfiles
+  add following lines in .autotest:
+    require File.dirname(__FILE__)+'/.dotfiles/rails/autotest'
   add following lines in .bashrc:
     . ~/.dotfiles/bashrc
   and this in .bash_profile
