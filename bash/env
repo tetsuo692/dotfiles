@@ -4,6 +4,7 @@ export SVN_EDITOR='mate -w'
 export LESSEDIT='mate -l %lm %f'
 export AUTOFEATURE=true
 
-if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
+
 # export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:$PATH
+if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
