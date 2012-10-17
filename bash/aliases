@@ -1,11 +1,1 @@
-# Rails
-alias mr='mongrel_rails start'
-alias ms='mongrel_rails stop'
-alias rp='touch tmp/restart.txt'
-alias sc='./script/rails console'
-alias sg='./script/rails g'
-alias sp='./script/plugin'
-alias ss='./script/rails server'
-alias tl='tail -f log/*.log'
-alias ts='thin start'
-alias restart='touch tmp/restart.txt'
+. ~/.dotfiles/rails/alias
