@@ -6,4 +6,4 @@ export AUTOFEATURE=true
 
 eval "$(rbenv init -)"
 
-export PATH=/usr/local/bin:PATH
+export PATH=/usr/local/bin:$PATH
