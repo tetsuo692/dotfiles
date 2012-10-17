@@ -1,0 +1,8 @@
+[user]
+	name = Guillaume belleguic
+	email = guillaume@belleguic.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
