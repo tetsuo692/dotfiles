@@ -1,3 +1,4 @@
+#!/usr/bin/env sh
 export EDITOR='mate -w'
 export CVSEDITOR='mate -w' 
 export SVN_EDITOR='mate -w'
