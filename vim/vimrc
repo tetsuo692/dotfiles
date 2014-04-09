@@ -3,6 +3,7 @@ syntax enable
 
 source ~/.dotfiles/vim/conf/vundle.vim
 source ~/.dotfiles/vim/conf/vim-airline.vim
+source ~/.dotfiles/vim/conf/nerdtree.vim
 
 if has('gui_running')
     set background=light
