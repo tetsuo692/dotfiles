@@ -6,3 +6,13 @@
 	diff = auto
 	status = auto
 	branch = auto
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/guillaume/.gitignore
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
