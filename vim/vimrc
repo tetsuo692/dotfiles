@@ -1,9 +1,11 @@
+set nocompatible
 set nu
 syntax enable
 
 source ~/.dotfiles/vim/conf/vundle.vim
 source ~/.dotfiles/vim/conf/vim-airline.vim
 source ~/.dotfiles/vim/conf/nerdtree.vim
+"source ~/.dotfiles/vim/conf/bclose.vim
 
 if has('gui_running')
     set background=light
@@ -13,3 +15,28 @@ endif
 
 let g:solarized_termcolors=256
 colorscheme solarized
+
+" Soft tabs {
+  set smartindent
+  set autoindent
+  filetype indent on
+  set tabstop=2
+  set softtabstop=2
+  set shiftwidth=2
+  set expandtab
+" }
+
+"set leader key
+let mapleader=","
+
+set list
+set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+
+"set foldmethod=ident
+"
+set mouse=a
+
+:nnoremap <Leader>q :Bdelete<CR>
+
+set splitright                  " Puts new vsplit windows to the right of the 
+set splitbelow                  " Puts new split windows to the bottom of the current
