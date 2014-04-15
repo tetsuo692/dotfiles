@@ -20,3 +20,7 @@ Bundle "garbas/vim-snipmate"
 
 " Optional:
 Bundle "honza/vim-snippets"
+
+Bundle "tpope/vim-surround"
+Bundle "Shougo/neocomplcache"
+Bundle "Shougo/neosnippet"

@@ -1,19 +1,8 @@
-set nocompatible
-set nu
-syntax enable
-
+source ~/.dotfiles/vim/conf/general.vim
 source ~/.dotfiles/vim/conf/vundle.vim
+source ~/.dotfiles/vim/conf/ui.vim
 source ~/.dotfiles/vim/conf/vim-airline.vim
 source ~/.dotfiles/vim/conf/nerdtree.vim
-
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-
-let g:solarized_termcolors=256
-colorscheme solarized
 
 " Soft tabs {
   set smartindent
@@ -25,14 +14,8 @@ colorscheme solarized
   set expandtab
 " }
 
-"set leader key
-let mapleader=","
-
 set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
 
-"set foldmethod=ident
-"
-set mouse=a
-
+let g:neocomplcache_enable_at_startup = 1
 :nnoremap <Leader>q :Bdelete<CR>
