@@ -16,5 +16,7 @@
     let mapleader = ","
     let g:mapleader = ","
 
-    set encoding=utf8
+    scriptencoding utf8
+    set spell
+    set hidden " Allow buffer switching without saving
 " }
