@@ -1,6 +1,5 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
 set rtp+=~/.dotfiles/vim/bundle/vundle/
 call vundle#rc()
 
@@ -24,3 +23,5 @@ Bundle 'honza/vim-snippets'
 Bundle 'tpope/vim-surround'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
+
+Bundle 'spf13/vim-autoclose'
