@@ -3,6 +3,7 @@ source ~/.dotfiles/vim/conf/vundle.vim
 source ~/.dotfiles/vim/conf/ui.vim
 source ~/.dotfiles/vim/conf/vim-airline.vim
 source ~/.dotfiles/vim/conf/nerdtree.vim
+
 " Soft tabs {
   set smartindent
   set autoindent
@@ -18,4 +19,3 @@ set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic white
 
 let g:neocomplcache_enable_at_startup = 1
 :nnoremap <Leader>q :Bdelete<CR>
-

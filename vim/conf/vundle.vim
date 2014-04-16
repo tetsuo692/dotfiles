@@ -25,3 +25,5 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
 
 Bundle 'spf13/vim-autoclose'
+
+Bundle 'tcomment'
