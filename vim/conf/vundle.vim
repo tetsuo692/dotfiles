@@ -14,13 +14,13 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'moll/vim-bbye'
 Plugin 'jistr/vim-nerdtree-tabs'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'garbas/vim-snipmate'
 
 " Optional:
-Bundle "honza/vim-snippets"
+Bundle 'honza/vim-snippets'
 
-Bundle "tpope/vim-surround"
-Bundle "Shougo/neocomplcache"
-Bundle "Shougo/neosnippet"
+Bundle 'tpope/vim-surround'
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet'
