@@ -1,0 +1,22 @@
+source ~/.dotfiles/vim/conf/general.vim
+source ~/.dotfiles/vim/conf/vundle.vim
+source ~/.dotfiles/vim/conf/ui.vim
+source ~/.dotfiles/vim/conf/vim-airline.vim
+source ~/.dotfiles/vim/conf/nerdtree.vim
+
+  set linespace=100
+" Soft tabs {
+  set smartindent
+  set autoindent
+  filetype indent on
+  set tabstop=2
+  set softtabstop=2
+  set shiftwidth=2
+  set expandtab
+" }
+
+set list
+set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+
+let g:neocomplcache_enable_at_startup = 1
+:nnoremap <Leader>q :Bdelete<CR>
