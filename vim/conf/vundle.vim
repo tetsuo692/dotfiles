@@ -6,6 +6,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-rails.git'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
@@ -29,3 +30,4 @@ Bundle 'spf13/vim-autoclose'
 Bundle 'tcomment'
 
 Bundle 'minibufexpl.vim'
+Bundle 'Syntastic'
