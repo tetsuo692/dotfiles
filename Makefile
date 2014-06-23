@@ -1,4 +1,4 @@
-install: install-vim
+install: install-vim install-zsh
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
