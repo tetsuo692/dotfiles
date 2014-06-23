@@ -1,9 +1,9 @@
-source ~/.dotfiles/vim/conf/general.vim
-source ~/.dotfiles/vim/conf/vundle.vim
-source ~/.dotfiles/vim/conf/ui.vim
-source ~/.dotfiles/vim/conf/vim-airline.vim
-source ~/.dotfiles/vim/conf/nerdtree.vim
-source ~/.dotfiles/vim/conf/syntastic.vim
+source ~/.vim/conf/general.vim
+source ~/.vim/conf/vundle.vim
+source ~/.vim/conf/ui.vim
+source ~/.vim/conf/vim-airline.vim
+source ~/.vim/conf/nerdtree.vim
+source ~/.vim/conf/syntastic.vim
 " Soft tabs {
   set smartindent
   set autoindent

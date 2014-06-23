@@ -1,9 +1,10 @@
-install: install-vim install-zsh install-ruby
+install: install-vim install-zsh install-ruby install-git
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
 	ln -s ~/.vim/vimrc ~/.vimrc
+	vim +PluginInstall +qall
 
 install-zsh:
 	rm -rf ~/.zshrc
