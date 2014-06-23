@@ -1,18 +1,13 @@
-[user]
-	name = Guillaume belleguic
-	email = guillaume@belleguic.com
+[hub]
+protocol = https
 
-[color]
-	diff = auto
-	status = auto
-	branch = auto
-[push]
-	default = matching
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
 [core]
-	excludesfile = /Users/guillaume/.gitignore
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+excludesfile = /opt/boxen/config/git/gitignore
+[user]
+	name = Guillaume BELLEGUIC
+	email = guillaume@belleguic.com
+[push]
+	default = simple

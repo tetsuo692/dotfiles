@@ -12,3 +12,7 @@ install-zsh:
 install-ruby:
 	rm -rf ~/.gemrc
 	ln -s `pwd`/gemrc ~/.gemrc
+
+install-git:
+	rm -rf ~/.gitconfig
+	ln -s `pwd`/gitconfig ~/.gitconfig
