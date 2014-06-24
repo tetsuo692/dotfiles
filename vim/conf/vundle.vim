@@ -24,7 +24,7 @@ Bundle 'honza/vim-snippets'
 Bundle 'tpope/vim-surround'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
-
+Bundle 'Shougo/neosnippet-snippets'
 Bundle 'spf13/vim-autoclose'
 
 Bundle 'tcomment'
