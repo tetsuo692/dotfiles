@@ -5,14 +5,17 @@
   else
     set background=dark
   endif
-  " Solarized
-  " {
-    let g:solarized_termcolors=256
-    let g:solarized_termtrans=1
-    let g:solarized_contrast="normal"
-    let g:solarized_visibility="normal"
-    colorscheme solarized
-  " }
+
+  if filereadable(expand("~/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
+    " Solarized
+    " {
+      let g:solarized_termcolors=256
+      let g:solarized_termtrans=1
+      let g:solarized_contrast="normal"
+      let g:solarized_visibility="normal"
+      colorscheme solarized
+    " }
+  end
   set mouse=a
   set mousehide " hide mouse pointer
   set hlsearch "highlight search
