@@ -31,3 +31,4 @@ Bundle 'tcomment'
 
 Bundle 'minibufexpl.vim'
 Bundle 'Syntastic'
+Bundle 'Lokaltog/vim-easymotion'
