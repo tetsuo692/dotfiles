@@ -28,6 +28,8 @@ Bundle 'Shougo/neosnippet'
 Bundle 'Shougo/neosnippet-snippets'
 Bundle 'spf13/vim-autoclose'
 
+Bundle 'lucapette/vim-ruby-doc'
+
 Bundle 'tcomment'
 
 Bundle 'minibufexpl.vim'
