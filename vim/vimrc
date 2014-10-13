@@ -5,6 +5,7 @@ source ~/.vim/conf/vim-airline.vim
 source ~/.vim/conf/nerdtree.vim
 source ~/.vim/conf/syntastic.vim
 source ~/.vim/conf/vim-ruby-doc.vim
+source ~/.vim/conf/neosnippet.vim
 " Soft tabs {
   set smartindent
   set autoindent
