@@ -25,7 +25,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-rbenv'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
-Bundle 'Shougo/neosnippet-snippets'
+Bundle 'tetsuo692/neosnippet-snippets'
 Bundle 'spf13/vim-autoclose'
 
 Bundle 'lucapette/vim-ruby-doc'
