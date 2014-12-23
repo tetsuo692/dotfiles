@@ -22,3 +22,4 @@ set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic white
 
 let g:neocomplcache_enable_at_startup = 1
 nnoremap <Leader>q :Bdelete<CR>
+let g:miniBufExplMapWindowNavVim = 2
