@@ -1,5 +1,6 @@
 " General
 " {
+    autocmd!
     set nocompatible
     set nu
     syntax on
@@ -8,15 +9,18 @@
     " Enable filetype plugins
     filetype plugin on
     filetype indent on
-
+    
+    set exrc
     " Set autoread
     set autoread
 
     " Leader map
-    let mapleader = ","
-    let g:mapleader = ","
+
+    let mapleader = " "
+    let g:mapleader = " "
 
     scriptencoding utf8
+
     set spell
     set hidden " Allow buffer switching without saving
     set backup
