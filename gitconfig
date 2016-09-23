@@ -6,7 +6,7 @@ helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
-	precomposeunicode = false
+	precomposeunicode = true
 [user]
 	name = Guillaume BELLEGUIC
 	email = guillaume@belleguic.com
