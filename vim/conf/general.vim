@@ -16,8 +16,8 @@
 
     " Leader map
 
-    let mapleader = " "
-    let g:mapleader = " "
+    let mapleader = ","
+    let g:mapleader = ","
 
     scriptencoding utf8
 
