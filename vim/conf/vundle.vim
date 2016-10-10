@@ -29,7 +29,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
 Bundle 'tetsuo692/neosnippet-snippets'
 Bundle 'spf13/vim-autoclose'
-
+Bundle 'vim-ruby/vim-ruby'
 Bundle 'lucapette/vim-ruby-doc'
 
 Bundle 'tcomment'
