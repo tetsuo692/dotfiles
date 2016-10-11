@@ -29,4 +29,5 @@
     set undolevels=1000
     set undoreload=10000
     set backspace=2
+    set tags=./tags;
 " }
