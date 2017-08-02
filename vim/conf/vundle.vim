@@ -40,3 +40,4 @@ Bundle 'Syntastic'
 Bundle 'Lokaltog/vim-easymotion'
 
 Plugin 'posva/vim-vue'
+Plugin 'vim-syntastic/syntastic'
