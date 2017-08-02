@@ -73,3 +73,5 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
