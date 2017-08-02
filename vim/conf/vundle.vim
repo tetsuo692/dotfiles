@@ -38,3 +38,5 @@ Bundle 'tcomment'
 Bundle 'minibufexpl.vim'
 Bundle 'Syntastic'
 Bundle 'Lokaltog/vim-easymotion'
+
+Plugin 'posva/vim-vue'
