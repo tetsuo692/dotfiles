@@ -75,3 +75,5 @@ fi
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+eval "$(rbenv init -)"
