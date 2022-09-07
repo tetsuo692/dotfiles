@@ -1,5 +1,7 @@
-install: install-vim install-zsh install-ruby install-git
+install: install-iterm2 install-rbenv install-vim install-zsh install-ruby install-git
 
+install-iterm2:
+	brew install --cask iterm2
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
@@ -18,3 +20,11 @@ install-ruby:
 install-git:
 	rm -rf ~/.gitconfig
 	ln -s `pwd`/gitconfig ~/.gitconfig
+
+install-rbenv:
+	brew install rbenv
+
+install-fonts:
+	git clone https://github.com/powerline/fonts.git --depth=1 ~/.fonts
+	sh ~/.fonts/install.sh
+	cd .. && rm -rf ~/.fonts
